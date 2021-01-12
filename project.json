@@ -1,4 +1,5 @@
 {
+  "author": "HanJun",
   "engine": "cocos-creator-js",
   "packages": "packages",
   "name": "CocosCreatorMaterialsHelper",
