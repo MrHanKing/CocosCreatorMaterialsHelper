@@ -79,15 +79,18 @@
       },
       {
         "__id__": 18
+      },
+      {
+        "__id__": 27
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 27
+        "__id__": 43
       },
       {
-        "__id__": 28
+        "__id__": 44
       }
     ],
     "_prefab": null,
@@ -177,7 +180,7 @@
       "array": [
         0,
         0,
-        245.9512146747806,
+        316.96529778510455,
         0,
         0,
         0,
@@ -771,6 +774,270 @@
       "__type__": "cc.Vec2",
       "x": 0,
       "y": 0
+    },
+    "textureValue": null,
+    "assetType": "None"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "New Capsule",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 28
+      },
+      {
+        "__id__": 29
+      }
+    ],
+    "_prefab": null,
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        4,
+        71,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": "b9u/V6untKRLIFfbVIxsjj"
+  },
+  {
+    "__type__": "cc.MeshRenderer",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 27
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "2e05c902-315f-4dda-8544-e6ce301b7257"
+      }
+    ],
+    "_mesh": {
+      "__uuid__": "83f5eff8-3385-4f95-9b76-8da0aa1d96cd"
+    },
+    "_receiveShadows": false,
+    "_shadowCastingMode": 0,
+    "_enableAutoBatch": false,
+    "textures": [],
+    "_id": "68orBXEstPXbilBdwsM8Sp"
+  },
+  {
+    "__type__": "03e8dwpW3xH2oy8Yd13l2Jp",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 27
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__id__": 30
+      }
+    ],
+    "_id": "0arqEKYTNK7YG3Lrbeu6w2"
+  },
+  {
+    "__type__": "MaterialAttributes",
+    "material": {
+      "__uuid__": "2e05c902-315f-4dda-8544-e6ce301b7257"
+    },
+    "attrs": [
+      {
+        "__id__": 31
+      },
+      {
+        "__id__": 32
+      },
+      {
+        "__id__": 33
+      },
+      {
+        "__id__": 34
+      },
+      {
+        "__id__": 35
+      },
+      {
+        "__id__": 36
+      },
+      {
+        "__id__": 37
+      },
+      {
+        "__id__": 38
+      },
+      {
+        "__id__": 39
+      },
+      {
+        "__id__": 40
+      },
+      {
+        "__id__": 41
+      },
+      {
+        "__id__": 42
+      }
+    ]
+  },
+  {
+    "__type__": "MaterialAttribute",
+    "propName": "alphaThreshold",
+    "propValue": 0.5,
+    "textureValue": null,
+    "assetType": "None"
+  },
+  {
+    "__type__": "MaterialAttribute",
+    "propName": "mainTiling",
+    "propValue": {
+      "__type__": "cc.Vec2",
+      "x": 1,
+      "y": 1
+    },
+    "textureValue": null,
+    "assetType": "None"
+  },
+  {
+    "__type__": "MaterialAttribute",
+    "propName": "mainOffset",
+    "propValue": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "textureValue": null,
+    "assetType": "None"
+  },
+  {
+    "__type__": "MaterialAttribute",
+    "propName": "diffuseColor",
+    "propValue": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "textureValue": null,
+    "assetType": "None"
+  },
+  {
+    "__type__": "MaterialAttribute",
+    "propName": "diffuseTexture",
+    "propValue": null,
+    "textureValue": null,
+    "assetType": "cc.Texture2D"
+  },
+  {
+    "__type__": "MaterialAttribute",
+    "propName": "specularColor",
+    "propValue": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "textureValue": null,
+    "assetType": "None"
+  },
+  {
+    "__type__": "MaterialAttribute",
+    "propName": "specularTexture",
+    "propValue": null,
+    "textureValue": null,
+    "assetType": "cc.Texture2D"
+  },
+  {
+    "__type__": "MaterialAttribute",
+    "propName": "emissiveColor",
+    "propValue": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 248,
+      "b": 248,
+      "a": 255
+    },
+    "textureValue": null,
+    "assetType": "None"
+  },
+  {
+    "__type__": "MaterialAttribute",
+    "propName": "emissiveTexture",
+    "propValue": null,
+    "textureValue": null,
+    "assetType": "cc.Texture2D"
+  },
+  {
+    "__type__": "MaterialAttribute",
+    "propName": "glossiness",
+    "propValue": 10,
+    "textureValue": null,
+    "assetType": "None"
+  },
+  {
+    "__type__": "MaterialAttribute",
+    "propName": "normalTexture",
+    "propValue": null,
+    "textureValue": {
+      "__uuid__": "0275e94c-56a7-410f-bd1a-fc7483f7d14a"
+    },
+    "assetType": "cc.Texture2D"
+  },
+  {
+    "__type__": "MaterialAttribute",
+    "propName": "edgeColor",
+    "propValue": {
+      "__type__": "cc.Color",
+      "r": 250,
+      "g": 28,
+      "b": 28,
+      "a": 255
     },
     "textureValue": null,
     "assetType": "None"

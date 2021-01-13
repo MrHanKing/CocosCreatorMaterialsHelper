@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.Material",
+  "_name": "M_Test_EdgeLightUnlit",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "cdb81113-21aa-47f6-883a-675ba1fa0bee"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "diffuseTexture": {
+          "__uuid__": "0275e94c-56a7-410f-bd1a-fc7483f7d14a"
+        },
+        "edgeColor": {
+          "__type__": "cc.Color",
+          "r": 248,
+          "g": 17,
+          "b": 17,
+          "a": 255
+        }
+      },
+      "defines": {
+        "USE_DIFFUSE_TEXTURE": true
+      }
+    }
+  }
+}
